@@ -1,0 +1,121 @@
+ /* CSS Pseudo Classes  */
+
+span:first-child{
+    color: yellow;
+}
+span:last-child{
+    color: pink;
+}
+span:nth-child(3){
+    color: blue;
+}
+.child:nth-child(4){
+    color: brown;
+}
+span:nth-child(odd){
+    color: rgb(52, 212, 55);
+}
+
+ /* CSS Pseudo Elements */
+ h4::before{
+    content: "Pseudo!!!";
+    color: red;
+    background-color: black;
+ }
+ h4::after{
+    content: "Element";
+    color: red;
+    background-color: black;
+ }
+
+ .colors{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+ }
+ 
+ .circle{
+    /* margin: 100px; */
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    border-radius: 75%;
+    position: relative;
+ }
+ .circle::before{
+    margin: 70px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(155, 112, 216);
+    border-radius: 30%;
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+ }
+
+ 
+ .circle::after{
+    margin: 70px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(223, 13, 16);
+    border-radius: 50%;
+    position: absolute;
+    content: " ";
+    bottom: 0;
+    right: 0;
+ }
+  
+ .circleHorz{
+    margin: 10px;
+    width: 220px;
+    height: 400px;
+    background-color: rgb(52, 225, 78);
+    border-radius: 75%;
+    position: relative;
+ } 
+ .circleHorz::before{
+    /* margin: 10px; */
+    width: 400px;
+    height: 520px;
+    background-color: rgb(255, 0, 204);
+    border-radius: 75%;
+    position: relative;
+    content: " Left";
+    bottom: 0;
+    right: 0;
+ }
+ 
+ .circleHorz::after{
+    margin: 200px;
+    width: 400px;
+    height: 1520px;
+    background-color: rgb(255, 0, 204);
+    /* border-radius: 75%; */
+    /* position: relative; */
+    content: " Right";
+    /* bottom: 0; */
+    /* right: 0; */
+ }
+ .circleVertLeft{
+    margin: 10px;
+    width: 40px;
+    height: 520px;
+    background-color: rgb(99, 69, 93);
+    border-radius: 75%;
+    position:absolute;
+    top: auto;
+    left: auto;
+ }
+ .circleVertRight{
+    margin: 10px;
+    width: 40px;
+    height: 520px;
+    background-color: rgb(27, 24, 26);
+    border-radius: 75%;
+    position: relative;
+    /* top: auto; */
+    left: auto;
+ }

@@ -1,0 +1,166 @@
+h1 {
+  margin: 100px;
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  border-radius: 50%;
+  display: block; 
+}
+h4{
+  text-align: center;
+}
+.displayCss1 {
+  /* margin: 100px; */
+  height: 80px;
+  /* width: 80px; */
+  background-color: yellow;
+  color: palevioletred;
+  display: block;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.displayCss2 {
+  /* margin: 100px; */
+  height: 80px;
+  width: 80px;
+  background-color: yellow;
+  color: saddlebrown;
+  display: block;
+}
+
+.displayCss3 {
+  margin: 100px;
+  height: 180px;
+  /* width: 80px; */
+  background-color: aqua;
+  color: blue;
+  display: inline;
+}
+
+.displayCss4 {
+  margin: 100px;
+  height: 80px;
+  /* width: 80px; */
+  background-color: aqua;
+  color: blue;
+  display: inline;
+}
+
+.displayCss5 {
+  /* margin: 100px; */
+  height: 480px;
+  /* width: 80px; */
+  background-color: aqua;
+  color: blue;
+  display: inline;
+}
+
+.displayCss6 {
+  /* margin: 100px; */
+  /* height: 80px; */
+  width: 80px;
+  background-color: aqua;
+  color: blue;
+  display: inline;
+}
+
+/* Position starts from here */
+
+.PositionCss1 {
+    /* margin: 100px; */
+    /* height: 80px; */
+    /* width: 80px; */
+    background-color: rgb(0, 255, 47);
+    color: rgb(37, 37, 43);
+    position: static;
+    border: 1px solid red;
+    top: 10px;
+    right: 20px;
+  }
+  
+.PositionCss2 {
+    /* margin: 100px; */
+    /* height: 80px; */
+    /* width: 80px; */
+    background-color: rgb(0, 255, 47);
+    color: rgb(37, 37, 43);
+    position: sticky;
+    border: 1px solid red;
+    top: 30px;
+    right: 20px;
+  }
+  
+.PositionCss3 {
+    /* margin: 100px; */
+    height: 180px;
+    /* width: 80px; */
+    background-color: rgb(98, 0, 255);
+    color: rgb(37, 37, 43);
+    position: fixed;
+    border: 1px solid red;
+    top: 10px;
+    right: 20px;
+  }
+  
+
+  .PositionCss4 {
+    /* margin: 100px; */
+    /* height: 80px; */
+    /* width: 50px; */
+    background-color: rgb(0, 255, 47);
+    color: rgb(37, 37, 43);
+    position: relative;
+    border: 1px solid red;
+    top: 10px;
+    right: 20px;
+  }
+  
+.PositionCss5 {
+    /* margin: 100px; */
+    /* height: 80px; */
+    /* width: 80px; */
+    background-color: rgb(38, 0, 255);
+    color: rgb(37, 37, 43);
+    position: absolute;
+    border: 1px solid red;
+    top: 10px;
+    right: 20px;
+  }
+
+  /* Shapes */
+  .shape1{
+    position: static;  
+    background-color: yellow;
+    width: 80px;
+    height: 100px;
+    left: 30px;
+    top: 30px;
+  }
+  .shape2{
+    position: relative;
+    background-color: red;
+    width: 80px;
+    height: 100px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .shape3{
+    position: relative;  
+    background-color: black;
+    width: 180px;
+    height: 100px;
+    left: 30px;
+    top: 30px;
+    
+  }
+  .shape4{
+    position: absolute;
+    background-color: rgb(76, 0, 255);
+    width: 80px;
+    height: 100px;
+    bottom: 10px;
+    left: 10px;
+  }

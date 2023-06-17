@@ -1,0 +1,20 @@
+.stickyPosition{
+    position: sticky;
+    background-color: aqua;
+    border: 2px solid black;
+    color: blue;
+    top: 50px;
+    left: 20px;
+    /* height: 40px; */
+}
+.PositionCss1 {
+    /* margin: 100px; */
+    /* height: 80px; */
+    /* width: 80px; */
+    background-color: rgb(0, 255, 47);
+    color: rgb(37, 37, 43);
+    position: static;
+    border: 1px solid red;
+    top: 10px;
+    right: 20px;
+  }
