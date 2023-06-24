@@ -1,0 +1,33 @@
+.parent{
+    background-color: black;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    gap: 30px;
+    flex-direction: column;
+
+    /* x  axis */
+    /* justify-content: flex-end; */
+    /* justify-content: center, space-around, space-evenly, space-between; */
+    /* justify-content: flex-start; */
+    justify-content: space-around;
+   
+    /* gap: 30px; */
+    flex-direction: column-reverse;
+    /* y axis  */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+ 
+}
+
+.child{
+    height: 120px;
+    width: 120px;
+    color: blue;
+    background-color: yellow;
+    border: 1px, solid red;
+}

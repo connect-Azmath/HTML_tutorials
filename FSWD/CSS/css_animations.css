@@ -1,0 +1,88 @@
+button{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    /* Transitions */
+    transition-delay: 1s;
+    /* transition-duration: 3s; */
+    /* transition-property: all; */
+    /* transition-timing-function: cubic-bezier(0, 0.33, 0.17, 1); */
+    /* transition-timing-function: linear; */
+
+    transition: all ease-out 0.5s 1s;
+}
+
+button:hover{
+    background-color: yellow;
+    color: rgb(227, 44, 8);
+    cursor: pointer;
+
+}
+
+/* Ball rolling Animation */
+
+.box{
+    background-color: black;
+    /* width: 80px; 
+    height: 120px;  */
+    /* width: 100vh; */
+    height:  100vh;
+}
+.circle{
+    background-color: rgb(16, 177, 150);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* .box:hover{
+    animation: startMove 5s ease-in-out backwards;
+    
+} */
+.circle:hover{
+    animation: startMove 5s ease-in backwards;
+    transition-timing-function: cubic-bezier(0, 0.58, 1, 0.46) ;
+}
+
+@keyframes startMove{
+    
+    5%{
+        transform: translate(50px,200px );
+        background-color: aqua;
+    } 
+    10%{
+        transform: translate(100px,20px );
+        background-color: purple;
+    } 
+    15%{
+        transform: translate(250px,250px );
+        background-color: rgb(255, 0, 0);
+    } 
+    20%{
+        transform: translate(50px,50px );
+        background-color: rebeccapurple;
+    }
+    22%{
+        transform: translate(50px,50px );
+        background-color: rgb(17, 0, 255);
+    }
+    25%{
+        transform: translate(400px, 200px);
+        /* transform: translate(-400px, -10px); */
+        /* transform: translate(400px, 400px); */
+    }
+    50%{
+        transform: translate(400px, 300px);
+        background-color: blue;
+        border-radius: 10px;
+    }
+    75%{
+        transform: translate(0px, 300px);
+        background-color: red;
+    }
+    85%{
+        transform: translate();
+    }
+}
